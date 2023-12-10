@@ -1,4 +1,6 @@
 body {
+    height: 100%;
+    width: 100%;
     background-image: linear-gradient(to right, rgb(25, 18, 56), rgb(91, 69, 190));
     
 }
@@ -14,8 +16,8 @@ body {
 }
 
 .gridbox{
-    width: 90%;
-    /* max-width: 450px; Set a max-width for better readability on larger screens */
+    width: 100%;
+    max-width: 450px; /* Set a max-width for better readability on larger screens */
     margin: 0 auto;
 /* 
     height: 450px;
@@ -92,4 +94,6 @@ body {
        width: 70%;
        height: 70%;
     }
- }  
+ }
+
+  
